@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Material</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="sources/normalize.css">
+    <link rel="stylesheet" href="sources/Magnific-Popup-master/dist/magnific-popup.css">
+    <link rel="stylesheet" href="sources/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
+    <link rel="stylesheet" href="sources/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css">
+
+    <style>
+        input[type=text],
+        select,
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+
+        input[type=number],
+        select,
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+
+        input[type=file],
+        select,
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+
+        input[type=submit] {
+            background-color: #04AA6D;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+
+        .form-container {
+            width: 80%;
+            margin: auto;
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header" id="intro">
+        <nav class="navbar cng-navbar">
+            <div class="container">
+                <div class="brand-and-toggler">
+                    <a href="seller.html" class="navbar-brand"><i class="far fa-handshake" aria-hidden="true"></i>
+                        Hello , @Seller
+
+                    </a>
+                    <button type="button" class="navbar-toggler" id="navbar-toggler">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+
+                <div class="navbar-collapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="yourproducts.html" class="nav-link"> YOUR PRODUCTS </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="addproduct.html" class="nav-link">ADD PRODUCT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="orderhistory.html" class="nav-link">ORDERS
+                            </a>
+
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#pay" class="nav-link">PAYMENT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#logout" class="nav-link">LOG OUT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- End of the header -->
+
+    <!--heading-->
+    <div style="margin-top:3rem; padding-top: 0.2rem; text-align: center;">
+        <h1> Product Details </h1>
+    </div>
+
+
+    <!-- product form ------product form---------------product form--------product form-->
+    <div class="form-container">
+        <form action="#!">
+            <label for="title"> Product Title </label>
+            <input type="text" id="title" name="title" placeholder="Product Title">
+
+            <label for="price"> Price (in INR) </label>
+            <input type="number" id="price" name="price" placeholder="Price of the Product">
+
+            <label for="unit"> UNIT </label>
+            <select id="unit" name="unit">
+                <option value="/item">/Item</option>
+                <option value="/sq feet">/sq feet</option>
+                <option value="/bag">/bag</option>
+            </select>
+
+            <label for="description"> Description </label>
+            <textarea id="description" name="description" placeholder="description of the product"
+                style="height:100px"></textarea>
+
+            <label for="image"> Product Image </label>
+            <input type="file" id="image" name="image">
+
+            <input type="submit" value="Add Product">
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer center">
+        <div class="container">
+            <p class="text">Copyright &copy; HouseMaterial Website | All Rights Reseved</p>
+            <div class="footer-links">
+                <a href="#" class="center">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="center">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="center">
+                    <i class="fab fa-pinterest"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer end -->
+
+    <script src="sources/jquery-2.1.4.min.js"></script>
+    <script src="sources/Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
+    <script src="sources/OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
