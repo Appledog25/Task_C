@@ -1,9 +1,5 @@
-*{
-    font-family: 'Oxygen', sans-serif;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+
+
 :root{
     --mount-meadow: black ;
     --white-smoke:#f0f0f0;
@@ -16,126 +12,7 @@
     --border-hover:.2rem dashed var(--main-color);
 
 }
-html{
-    color: black;
-    font-size: 1rem;
-    font-weight: 300;
-    line-height: 1.5;
-    text-rendering: optimizeLegibility;
-    scroll-behavior: smooth;
 
-}
-/* setup & reusable styling */
-/* img{
-    width: 100%;
-
-} */
-a{
-    text-decoration: none;
-    color: black;
-}
-li{
-    list-style-type: none;
-}
-button{
-    cursor: pointer;
-    outline: 0;
-    background-color: transparent;
-
-}
-
-.title{
-    padding-top: 5rem;
-    font-size: 1rem;
-    text-align: center;
-}
-
-/*  header */
-.header{
-    
-    /* min-height: 100vh; */
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    color: #343434;
-    display: flex;
-    flex-direction: column;
-    justify-content: stretch;
-}
-.header .navbar-collapse a:hover{
-    color:var(--black);
-    border-bottom: .1rem solid var(--black);
-    padding-bottom: .5rem;
-}
-.brand-and-toggler a:hover{
-    color: black;
-}
-
-.header .icons div{
-    color:#fff;
-    cursor: pointer;
-    font-size: 1.5rem;
-    margin-left: 2rem;
-}
-.navbar{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #fff;
-    z-index: 999;
-
-}
-.brand-and-toggler{
-    font-size: 1.65rem;
-    padding: 0.5rem 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 100px;
-
-    
-}
-.navbar-brand{
-    font-family: 'Libre Baskerville', serif;;
-    font-weight: 800;
-    color: var( --night-rider) ;
-
-}
-.navbar-brand span{
-    color: var( --mount-meadow);
-}
-.navbar-toggler {
-    border: none;
-    color: var(--mount-meadow);
-}
-.navbar-nav{
-    margin: 0.2rem 0 0.6rem 0;
-
-}
-.nav-item{
-    padding: 0.6rem 0;
-
-}
-.nav-link{
-    text-transform: uppercase;
-    font-size: 0.95rem;
-    letter-spacing: 1.5px;
-    font-weight: 400;
-    opacity: 0.65;
-    transition: var(--transition);
-}
-.nav-link:hover{
-    color: var( --mount-meadow)!important;
-}
-.navbar-collapse{
-    display: none;
-    margin-right: 80px;
-}
-
-
-/* Header End */
 /* section */
 .section {
     width: 100%;
@@ -310,87 +187,7 @@ button{
 
 }
 /* our team end */
-/* Footer */
-.footer{
-    text-align: center;
-    background: var(--black);
-    color: var(--white-smoke);
-    padding-left: 2rem 0;
-    height:30vh;
-    }
-    .footer .text{
-        opacity: 0.8;
-        padding-top: 3rem ;
-    }
-    .footer-links{
-        display: flex;
-        justify-content: center;
-        margin-top: 1.6rem;
-    }
-    .footer-links a{
-        color: var(--white-smoke);
-        opacity: 0.8;
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        transition: var(--transition);
-    }
-    .footer-links a:hover{
-        background: var(--night-rider);
-    }
-    /* Footer End */
-    /* -------------992 Display----------------- */
 @media screen and (min-width:992px){
-    .navbar{
-background: transparent;
-margin-top: 1.4rem;
-    }
-    .navbar .container{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    .navbar-brand{
-        color: var(--white-smoke);
-        font-size: 2rem;
-
-    }
-    .navbar-toggler{
-        display: none;
-    }
-    .navbar-collapse{
-        display: block!important;
-    }
-    .navbar-nav{
-        display: flex;
-        margin: 0;
-
-    }
-    .nav-item{
-        margin-left: 1.8rem;
-    }
-    .nav-link{
-        color: var(--white-smoke);
-    }
-    .hero-div h1{
-        font-size: 3.8rem;
-    }
-    
-    /* navbar change */
-    .navbar{
-        -webkit-box-shadow: 0 2px 5px 0 rgba(207,205,207,0.3);
-        -moz-box-shadow:0 2px 5px 0 rgba(207,205,207,0.3);
-        box-shadow: 0 2px 5px 0 rgba(207,205,207,0.3);
-        margin-top: 0;
-        background: #fff;
-    }
-    .cng-navbar .navbar-brand{
-        color: var(--night-rider);
-
-    }
-    .cng-navbar .nav-link{
-        color: var(--night-rider);
-    }
     .footer{
         height: 30vh;
     }
@@ -398,9 +195,8 @@ margin-top: 1.4rem;
         padding-top: 5rem;
     }
     .title h1{
-        padding-top: 3rem;
+        padding-top: 4rem;
     }
-    
 }
 @media screen and (max-width: 768px){
 	.container{
@@ -442,6 +238,8 @@ margin-top: 1.4rem;
 .footer{
 height: 40vh;
 }
-
+.title h1{
+    padding-top:5rem ;
 }
 
+}
