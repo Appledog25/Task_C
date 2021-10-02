@@ -380,6 +380,7 @@ img{
 
 
 /* Media Queries */
+
 @media screen and (min-width: 992px){
     .product-items{
         display: grid;
@@ -471,5 +472,7 @@ margin-top: 1.4rem;
         color: var(--night-rider);
     }
     
+    
 }
+
 /* ----------992 display end------ */
