@@ -2,107 +2,211 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>House Material</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Your Products </title>
 
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="sources/normalize.css">
-    <link rel="stylesheet" href="sources/Magnific-Popup-master/dist/magnific-popup.css">
-    <link rel="stylesheet" href="sources/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
-    <link rel="stylesheet" href="sources/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+    </script>
 
-    <style>
-        
-        
-       
-        </style>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="sources/normalize.css">
+  <link rel="stylesheet" href="sources/Magnific-Popup-master/dist/magnific-popup.css">
+  <link rel="stylesheet" href="sources/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
+  <link rel="stylesheet" href="sources/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css">
 </head>
 
 <body>
-    <!-- header -->
-    <header class="header" id="intro">
-        <nav class="navbar cng-navbar">
-            <div class="container">
-                <div class="brand-and-toggler">
-                    <a href="seller.html" class="navbar-brand"><i class="far fa-handshake" aria-hidden="true"></i>
-                        Hello , @Seller
+  <!-- header -->
 
-                    </a>
-                    <button type="button" class="navbar-toggler" id="navbar-toggler">
-                        <i class="fas fa-bars"></i>
-                    </button>
-                </div>
+  <!-- End of the header -->
 
-                <div class="navbar-collapse">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a href="yourproducts.html" class="nav-link"> YOUR PRODUCTS </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="addproduct.html" class="nav-link">ADD PRODUCT</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="orderhistory.html" class="nav-link">ORDERS 
-                            </a>
-
-                        </li>
-
-                        <li class="nav-item">
-                            <a href="#pay" class="nav-link">PAYMENT</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#!" class="nav-link">LOG OUT</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <!-- End of the header -->
-
-    <!--heading-->
-    <div style="margin: auto; margin-top:3rem; padding-top: 0.2rem; margin-top: 5rem; margin-bottom: 1rem; 
+  <!--heading-->
+  <div style="margin: auto; margin-top:3rem; padding-top: 0.2rem; margin-top: 2rem; margin-bottom: 1rem; 
                 text-align: center; border-bottom: black 5px solid; width: 50%;">
-        <h1> Your Products </h1>
-    </div>
-   
-    <div style="margin: auto; height: 50vh; width: 90%; border: black 3px solid; margin-top: 1rem; margin-bottom: 3rem;
+    <h1> Your Products </h1>
+  </div>
+
+  <div style="margin: auto; height: fit-content; width: 90%; margin-top: 1rem; margin-bottom: 3rem;
                 text-align: center;">
-                <p style="margin: auto; padding-top: 8rem;"> All the products of the seller will be visible here</p>
+
+
+    <div class="container">
+      <div class="row">
+        <!-- first product -->
+        <div class="col-md-4">
+          <div class="card mb-3">
+            <button class="btn btn-success"> UPDATE STOCK </button>
+            <img src="images/cement.jpeg" class="card-img-top" alt="...">
+            <div class="card-body" style="text-align: center;">
+              <h5 class="card-title"> <span class="badge bg-secondary"> UltraTech Cement </span></h5>
+
+              <span class="badge bg-warning text-dark">Price : Rs. 270/bag</span>
+              <br />
+              <div class="progress" style="margin-top: 5px;">
+                <div class="progress-bar bg-danger" role="progressbar" style="width: 55%;" aria-valuenow="55"
+                  aria-valuemin="0" aria-valuemax="100">55% sold</div>
+              </div>
+              <br />
+              <span class="badge bg-info text-dark">Last updated 3 mins ago</span>
+              <br />
+
+              <button class="btn btn-danger" style="margin-top: 5px;"> DELETE </button>
+            </div>
+          </div>
+        </div>
+        <!-- this is 2 product -->
+        <div class="col-md-4">
+          <div class="card mb-3">
+            <button class="btn btn-success"> UPDATE STOCK </button>
+            <img src="images/paint1.jpeg" class="card-img-top" alt="...">
+            <div class="card-body" style="text-align: center;">
+              <h5 class="card-title"> <span class="badge bg-secondary"> Product Name </span></h5>
+
+              <span class="badge bg-warning text-dark">Price : Rs. 500/Item </span>
+              <br />
+              <div class="progress" style="margin-top: 5px;">
+                <div class="progress-bar bg-danger" role="progressbar" style="width: 30%;" aria-valuenow="30"
+                  aria-valuemin="0" aria-valuemax="100">30% sold</div>
+              </div>
+              <br />
+              <span class="badge bg-info text-dark">Last updated 3 mins ago</span>
+              <br />
+              <button class="btn btn-danger" style="margin-top: 5px;"> DELETE </button>
+            </div>
+          </div>
+        </div>
+        <!-- this is 3 product -->
+        <div class="col-md-4">
+          <div class="card mb-3">
+            <button class="btn btn-success"> UPDATE STOCK </button>
+            <img src="images/Productbolt.jpg" class="card-img-top" alt="...">
+            <div class="card-body" style="text-align: center;">
+              <h5 class="card-title"> <span class="badge bg-secondary"> Bolts </span></h5>
+
+              <span class="badge bg-warning text-dark">Price : Rs. 35/Item</span>
+              <br />
+              <div class="progress" style="margin-top: 5px;">
+                <div class="progress-bar bg-danger" role="progressbar" style="width: 55%;" aria-valuenow="25"
+                  aria-valuemin="0" aria-valuemax="100">55% sold</div>
+              </div>
+              <br />
+              <span class="badge bg-info text-dark">Last updated 3 mins ago</span>
+              <br />
+              <button class="btn btn-danger" style="margin-top: 5px;"> DELETE </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- this is the 2 row -->
+
+      <div class="row">
+        <!-- first product -->
+        <div class="col-md-4">
+          <div class="card mb-3">
+            <button class="btn btn-success"> UPDATE STOCK </button>
+            <img src="images/ProductBrick2.png" class="card-img-top" alt="...">
+            <div class="card-body" style="text-align: center;">
+              <h5 class="card-title"> <span class="badge bg-secondary"> Bricks </span></h5>
+
+              <span class="badge bg-warning text-dark">Price : Rs. 15/Item</span>
+              <br />
+              <div class="progress" style="margin-top: 5px;">
+                <div class="progress-bar bg-danger" role="progressbar" style="width: 100%;" aria-valuenow="100"
+                  aria-valuemin="0" aria-valuemax="100">100% Out of Stock</div>
+              </div>
+              <br />
+              <span class="badge bg-info text-dark">Last updated 3 mins ago</span>
+              <br />
+              <button class="btn btn-danger" style="margin-top: 5px;"> DELETE </button>
+            </div>
+          </div>
+        </div>
+        <!-- this is 2 product -->
+        <div class="col-md-4">
+          <div class="card mb-3">
+            <button class="btn btn-success"> UPDATE STOCK </button>
+            <img src="images/paint.jpeg" class="card-img-top" alt="...">
+            <div class="card-body" style="text-align: center;">
+              <h5 class="card-title"> <span class="badge bg-secondary"> Asian Paints </span></h5>
+
+              <span class="badge bg-warning text-dark">Price : Rs. 750/Item</span>
+              <br />
+              <div class="progress" style="margin-top: 5px;">
+                <div class="progress-bar bg-danger" role="progressbar" style="width: 55%;" aria-valuenow="25"
+                  aria-valuemin="0" aria-valuemax="100">55% sold</div>
+              </div>
+              <br />
+              <span class="badge bg-info text-dark">Last updated 1 mins ago</span>
+              <br />
+              <button class="btn btn-danger" style="margin-top: 5px;"> DELETE </button>
+            </div>
+          </div>
+        </div>
+        <!-- this is 3 product -->
+        <div class="col-md-4">
+          <div class="card mb-3">
+            <button class="btn btn-success"> UPDATE STOCK </button>
+            <img src="images/ProductRod.jpg" class="card-img-top" alt="...">
+            <div class="card-body" style="text-align: center;">
+              <h5 class="card-title"> <span class="badge bg-secondary"> Rods </span></h5>
+
+              <span class="badge bg-warning text-dark">Price :Rs. 90/kg </span>
+              <br />
+              <div class="progress" style="margin-top: 5px;">
+                <div class="progress-bar bg-danger" role="progressbar" style="width: 55%;" aria-valuenow="25"
+                  aria-valuemin="0" aria-valuemax="100">55% sold</div>
+              </div>
+              <br />
+              <span class="badge bg-info text-dark">Last updated 3 mins ago</span>
+              <br />
+              <button class="btn btn-danger" style="margin-top: 5px;"> DELETE </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <!-- Footer -->
-    <footer class="footer center">
-        <div class="container">
-            <p class="text">Copyright &copy; HouseMaterial Website | All Rights Reseved</p>
-            <div class="footer-links">
-                <a href="#" class="center">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-                <a href="#" class="center">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="#" class="center">
-                    <i class="fab fa-pinterest"></i>
-                </a>
-            </div>
-        </div>
-    </footer>
-    <!-- Footer end -->
 
-    <script src="sources/jquery-2.1.4.min.js"></script>
-    <script src="sources/Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
-    <script src="sources/OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
-    <script src="js/script.js"></script>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer center">
+    <div class="container">
+      <p class="text">Copyright &copy; HouseMaterial Website | All Rights Reseved</p>
+      <div class="footer-links">
+        <a href="#" class="center">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="#" class="center">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="#" class="center">
+          <i class="fab fa-pinterest"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer end -->
+
+  <script src="sources/jquery-2.1.4.min.js"></script>
+  <script src="sources/Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
+  <script src="sources/OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
